@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ExtruderControlBoard2209-rescue)(type Legacy)(uri ${KIPRJMOD}/ExtruderControlBoard2209-rescue.lib)(options "")(descr ""))
+)
