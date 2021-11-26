@@ -261,10 +261,10 @@ RX_MCU
 Text GLabel 2000 4250 2    50   Input ~ 0
 TX_MCU
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J6
+L Connector_Generic:Conn_02x03_Odd_Even ICSP1
 U 1 1 615FDF9E
 P 4300 1050
-F 0 "J6" H 4350 1367 50  0000 C CNN
+F 0 "ICSP1" H 4350 1367 50  0000 C CNN
 F 1 "ICSP" H 4350 1276 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4300 1050 50  0001 C CNN
 F 3 "~" H 4300 1050 50  0001 C CNN
@@ -381,10 +381,10 @@ F 3 "~" H 6400 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J15
+L Connector:Conn_01x04_Male Motor1
 U 1 1 6156DA06
 P 5400 1850
-F 0 "J15" H 5372 1732 50  0000 R CNN
+F 0 "Motor1" H 5372 1732 50  0000 R CNN
 F 1 "Conn_Stepper" H 5372 1823 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 5400 1850 50  0001 C CNN
 F 3 "~" H 5400 1850 50  0001 C CNN
@@ -436,10 +436,10 @@ Wire Wire Line
 	1900 7600 1750 7600
 Connection ~ 1750 7600
 $Comp
-L Connector:Conn_01x02_Male J3
+L Connector:Conn_01x02_Male Fan1
 U 1 1 616B1002
 P 2600 7200
-F 0 "J3" H 2708 7381 50  0000 C CNN
+F 0 "Fan1" H 2708 7381 50  0000 C CNN
 F 1 "Conn_Fan1" H 2708 7290 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2600 7200 50  0001 C CNN
 F 3 "~" H 2600 7200 50  0001 C CNN
@@ -504,10 +504,10 @@ Wire Wire Line
 	3650 7600 3500 7600
 Connection ~ 3500 7600
 $Comp
-L Connector:Conn_01x02_Male J7
+L Connector:Conn_01x02_Male Fan2
 U 1 1 616BC085
 P 4350 7200
-F 0 "J7" H 4458 7381 50  0000 C CNN
+F 0 "Fan2" H 4458 7381 50  0000 C CNN
 F 1 "Conn_Fan2" H 4458 7290 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4350 7200 50  0001 C CNN
 F 3 "~" H 4350 7200 50  0001 C CNN
@@ -634,10 +634,10 @@ F 3 "" H 1550 6800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J1
+L Connector:Conn_01x02_Male TH1
 U 1 1 61751E8B
 P 850 6500
-F 0 "J1" H 958 6681 50  0000 C CNN
+F 0 "TH1" H 958 6681 50  0000 C CNN
 F 1 "Conn_TH" H 958 6590 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 850 6500 50  0001 C CNN
 F 3 "~" H 850 6500 50  0001 C CNN
@@ -698,10 +698,10 @@ Wire Wire Line
 	1550 6800 1350 6800
 Connection ~ 1350 6800
 $Comp
-L Connector:Conn_01x03_Male J4
+L Connector:Conn_01x03_Male FS1
 U 1 1 6180A3F6
 P 3000 5700
-F 0 "J4" H 3108 5981 50  0000 C CNN
+F 0 "FS1" H 3108 5981 50  0000 C CNN
 F 1 "Conn_MT_DET" H 3108 5890 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 3000 5700 50  0001 C CNN
 F 3 "~" H 3000 5700 50  0001 C CNN
@@ -745,10 +745,10 @@ STEP
 Text GLabel 2000 2450 2    50   Input ~ 0
 DIR
 $Comp
-L Connector:Conn_01x02_Male J5
+L Connector:Conn_01x02_Male I2C1
 U 1 1 6184BF26
 P 2550 1050
-F 0 "J5" H 2658 1231 50  0000 C CNN
+F 0 "I2C1" H 2658 1231 50  0000 C CNN
 F 1 "Conn_I2C" H 2658 1140 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2550 1050 50  0001 C CNN
 F 3 "~" H 2550 1050 50  0001 C CNN
@@ -841,10 +841,10 @@ Wire Wire Line
 Text GLabel 2000 3650 2    50   Input ~ 0
 MT_DET
 $Comp
-L Connector:Conn_01x02_Male J17
+L Connector:Conn_01x02_Male Power1
 U 1 1 617474FE
 P 700 900
-F 0 "J17" V 762 944 50  0000 L CNN
+F 0 "Power1" V 762 944 50  0000 L CNN
 F 1 "Power_In" V 853 944 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 700 900 50  0001 C CNN
 F 3 "~" H 700 900 50  0001 C CNN
@@ -879,7 +879,7 @@ U 1 1 6174BA81
 P 6650 850
 F 0 "C5" H 6800 700 50  0000 R CNN
 F 1 "220UF/16V" H 6950 600 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 6688 700 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 6688 700 50  0001 C CNN
 F 3 "~" H 6650 850 50  0001 C CNN
 	1    6650 850 
 	-1   0    0    1   
@@ -986,19 +986,15 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds16008.pdf" H 8000 4450 50  0001 
 	1    8000 4450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1150 7300 1150 7350
-Wire Wire Line
-	1050 7300 1150 7300
 $Comp
-L Connector:Conn_01x02_Male J2
+L Connector:Conn_01x02_Male Heater1
 U 1 1 6164A2AB
-P 850 7200
-F 0 "J2" H 958 7381 50  0000 C CNN
-F 1 "Conn_Heater" H 958 7290 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 850 7200 50  0001 C CNN
-F 3 "~" H 850 7200 50  0001 C CNN
-	1    850  7200
+P 850 7100
+F 0 "Heater1" H 958 7281 50  0000 C CNN
+F 1 "Conn_Heater" H 958 7190 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 850 7100 50  0001 C CNN
+F 3 "~" H 850 7100 50  0001 C CNN
+	1    850  7100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1016,17 +1012,6 @@ F 1 "CH330N" H 8850 3050 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8450 2100 50  0001 L CNN
 F 3 "http://www.wch.cn/downloads/file/240.html" H 8050 3450 50  0001 C CNN
 	1    8400 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L ExtruderControlBoard2209-rescue:TMC2209-LA-Tmc2209 U3
-U 1 1 616473A0
-P 4250 2750
-F 0 "U3" H 5250 3137 60  0000 C CNN
-F 1 "TMC2209-LA" H 5250 3031 60  0000 C CNN
-F 2 "Tmc2209:TMC2209-LA" H 5250 2990 60  0001 C CNN
-F 3 "" H 4250 2750 60  0000 C CNN
-	1    4250 2750
 	1    0    0    -1  
 $EndComp
 Text GLabel 4250 2750 0    50   Input ~ 0
@@ -1245,7 +1230,6 @@ F 3 "~" H 4100 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 3950 4050
-Connection ~ 4250 4050
 $Comp
 L power:+24V #PWR0107
 U 1 1 619BAB4B
@@ -1302,43 +1286,6 @@ F 2 "" H 4250 2950 50  0001 C CNN
 F 3 "" H 4250 2950 50  0001 C CNN
 	1    4250 2950
 	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP1
-U 1 1 619D9778
-P 4400 2050
-F 0 "JP1" H 4400 2255 50  0000 C CNN
-F 1 "SPREAD" H 4400 2164 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 4400 2050 50  0001 C CNN
-F 3 "~" H 4400 2050 50  0001 C CNN
-	1    4400 2050
-	1    0    0    -1  
-$EndComp
-Text GLabel 4250 3350 0    50   Input ~ 0
-SPREAD
-Text GLabel 4400 2200 3    50   UnSpc ~ 0
-SPREAD
-$Comp
-L power:+5V #PWR0110
-U 1 1 619E0945
-P 4200 2050
-F 0 "#PWR0110" H 4200 1900 50  0001 C CNN
-F 1 "+5V" V 4215 2178 50  0000 L CNN
-F 2 "" H 4200 2050 50  0001 C CNN
-F 3 "" H 4200 2050 50  0001 C CNN
-	1    4200 2050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 619E2B26
-P 4600 2050
-F 0 "#PWR0111" H 4600 1800 50  0001 C CNN
-F 1 "GND" V 4605 1922 50  0000 R CNN
-F 2 "" H 4600 2050 50  0001 C CNN
-F 3 "" H 4600 2050 50  0001 C CNN
-	1    4600 2050
-	0    -1   -1   0   
 $EndComp
 NoConn ~ 4250 3550
 NoConn ~ 4250 3650
@@ -1646,7 +1593,7 @@ $Comp
 L Device:C C12
 U 1 1 61C3CA09
 P 10200 5450
-F 0 "C12" H 10250 5350 50  0000 L CNN
+F 0 "C12" H 9950 5350 50  0000 L CNN
 F 1 "100nF" H 10100 5350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10238 5300 50  0001 C CNN
 F 3 "~" H 10200 5450 50  0001 C CNN
@@ -1933,10 +1880,10 @@ Wire Wire Line
 Wire Wire Line
 	4800 5150 4800 5250
 $Comp
-L Connector:Conn_01x04_Male J11
+L Connector:Conn_01x04_Male AUX1
 U 1 1 61BA5167
 P 6050 7000
-F 0 "J11" H 6158 7281 50  0000 C CNN
+F 0 "AUX1" H 6158 7281 50  0000 C CNN
 F 1 "A_CS" H 6158 7190 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6050 7000 50  0001 C CNN
 F 3 "~" H 6050 7000 50  0001 C CNN
@@ -2031,7 +1978,7 @@ Wire Wire Line
 Connection ~ 6050 1150
 Wire Wire Line
 	6050 1150 6200 1150
-Text GLabel 1150 7350 3    50   Input ~ 0
+Text GLabel 1050 7100 2    50   Input ~ 0
 24VHeater
 Text GLabel 8000 4250 1    50   Input ~ 0
 5V_USB
@@ -2148,8 +2095,8 @@ $Comp
 L Device:C C11
 U 1 1 61A759E8
 P 10050 5900
-F 0 "C11" H 10165 5946 50  0000 L CNN
-F 1 "100nf" H 10165 5855 50  0000 L CNN
+F 0 "C11" H 9850 6000 50  0000 L CNN
+F 1 "100nf" H 9700 5900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10088 5750 50  0001 C CNN
 F 3 "~" H 10050 5900 50  0001 C CNN
 	1    10050 5900
@@ -2181,4 +2128,40 @@ Wire Wire Line
 NoConn ~ 800  2750
 Wire Wire Line
 	6250 6900 6550 6900
+NoConn ~ 4250 3350
+Connection ~ 4250 4050
+$Comp
+L Device:C C19
+U 1 1 6206ED18
+P 6250 4300
+F 0 "C19" V 5998 4300 50  0000 C CNN
+F 1 "100nF" V 6089 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6288 4150 50  0001 C CNN
+F 3 "~" H 6250 4300 50  0001 C CNN
+	1    6250 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L ExtruderControlBoard2209-rescue:TMC2209-LA-Tmc2209 U3
+U 1 1 616473A0
+P 4250 2750
+F 0 "U3" H 5250 3137 60  0000 C CNN
+F 1 "TMC2209-LA" H 5250 3031 60  0000 C CNN
+F 2 "Tmc2209:TMC2209-LA" H 5250 2990 60  0001 C CNN
+F 3 "" H 4250 2750 60  0000 C CNN
+	1    4250 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 4150
+$Comp
+L power:GND #PWR033
+U 1 1 62082C47
+P 6250 4450
+F 0 "#PWR033" H 6250 4200 50  0001 C CNN
+F 1 "GND" H 6255 4277 50  0000 C CNN
+F 2 "" H 6250 4450 50  0001 C CNN
+F 3 "" H 6250 4450 50  0001 C CNN
+	1    6250 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
